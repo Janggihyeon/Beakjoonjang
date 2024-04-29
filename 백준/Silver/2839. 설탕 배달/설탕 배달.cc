@@ -8,7 +8,7 @@ int main(void) {
     bool check=false;
     int min = 10000;
     cin >> number;
-    int* total = new int[number*number];
+    int* total = new int[(number/5+1)*(number/3+1)];
     for (int x = 0; x <= number / 5; x++)
     {
         for(int y=0;y<=(number-5*x)/3;y++)
