@@ -8,6 +8,9 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+	cin.tie(NULL);
+    
 	int N, M;//N듣도 , M보도
 	string name;
 	set<string> arr;
