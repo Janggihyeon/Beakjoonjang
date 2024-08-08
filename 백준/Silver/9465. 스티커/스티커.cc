@@ -1,23 +1,14 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-
 int arr[2][100001];
-int got[100001];
 int n;//n개의 정수
 void dp();
 int main()
 {
-	int testcase;
 	int num;
 
-	
-	for (int i = 0; i < 100001; i++)
-	{
-		got[i] = -1;
-	}
 	cin >> num;
 	for (int k = 0; k < num; k++) {
 		cin >> n;
